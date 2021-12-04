@@ -17,21 +17,21 @@ const flatten = require("./flatten");
 const map = require("./map");
 
 module.exports = {
-  head: head,
-  middle: middle,
-  tail: tail,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  letterPositions: letterPositions,
-  takeUntil: takeUntil,
-  without: without,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  flatten: flatten,
-  map: map
+  head,
+  middle,
+  tail,
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  letterPositions,
+  takeUntil,
+  without,
+  countLetters,
+  countOnly,
+  flatten,
+  map
 };
